@@ -4,6 +4,7 @@ import numpy as np
 
 # Load the trained model
 model = joblib.load('my_model_linear.pkl')
+st.snow()
 
 # Title of the app
 st.title("Agricultural Yield Prediction")
@@ -26,3 +27,4 @@ if st.button('Predict Yield'):
 
     # Display the result
     st.success(f'Predicted Yield: {prediction[0]:.2f} kg per hectare')
+    st.snow()
