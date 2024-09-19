@@ -27,4 +27,4 @@ if st.button('Predict Yield'):
 
     # Display the result
     st.success(f'Predicted Yield: {prediction[0]:.2f} kg per hectare')
-    st.snow()
+    #st.snow()
